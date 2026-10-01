@@ -1,0 +1,83 @@
+{
+  "selected_best_model": "XGBoost Classifier",
+  "best_accuracy": 0.7345714285714285,
+  "dataset_records": 70000,
+  "training_split": "80/20 Stratified Train/Test",
+  "evaluation_results": {
+    "Logistic Regression": {
+      "Accuracy": 0.714,
+      "Precision": 0.7315,
+      "Recall": 0.6757,
+      "Sensitivity": 0.6757,
+      "Specificity": 0.7523,
+      "F1_Score": 0.7025,
+      "ROC_AUC": 0.7782,
+      "Confusion_Matrix": {
+        "TN": 5269,
+        "FP": 1735,
+        "FN": 2269,
+        "TP": 4727
+      }
+    },
+    "Random Forest": {
+      "Accuracy": 0.7333,
+      "Precision": 0.7576,
+      "Recall": 0.6857,
+      "Sensitivity": 0.6857,
+      "Specificity": 0.7808,
+      "F1_Score": 0.7198,
+      "ROC_AUC": 0.7974,
+      "Confusion_Matrix": {
+        "TN": 5469,
+        "FP": 1535,
+        "FN": 2199,
+        "TP": 4797
+      }
+    },
+    "Support Vector Machine (SVM)": {
+      "Accuracy": 0.6471,
+      "Precision": 0.6558,
+      "Recall": 0.6186,
+      "Sensitivity": 0.6186,
+      "Specificity": 0.6756,
+      "F1_Score": 0.6367,
+      "ROC_AUC": 0.7025,
+      "Confusion_Matrix": {
+        "TN": 4732,
+        "FP": 2272,
+        "FN": 2668,
+        "TP": 4328
+      }
+    },
+    "XGBoost Classifier": {
+      "Accuracy": 0.7346,
+      "Precision": 0.7553,
+      "Recall": 0.6935,
+      "Sensitivity": 0.6935,
+      "Specificity": 0.7756,
+      "F1_Score": 0.7231,
+      "ROC_AUC": 0.8007,
+      "Confusion_Matrix": {
+        "TN": 5432,
+        "FP": 1572,
+        "FN": 2144,
+        "TP": 4852
+      }
+    },
+    "Deep Learning (Neural Net MLP)": {
+      "Accuracy": 0.7235,
+      "Precision": 0.7206,
+      "Recall": 0.7296,
+      "Sensitivity": 0.7296,
+      "Specificity": 0.7174,
+      "F1_Score": 0.7251,
+      "ROC_AUC": 0.7897,
+      "Confusion_Matrix": {
+        "TN": 5025,
+        "FP": 1979,
+        "FN": 1892,
+        "TP": 5104
+      }
+    }
+  }
+}

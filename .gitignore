@@ -1,0 +1,39 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+backend/db.sqlite3
+backend/venv/
+venv/
+ENV/
+env/
+*.log
+
+# Media / Generated PDFs
+backend/media/pdf_reports/*.pdf
+media/pdf_reports/*.pdf
+
+# Node / React / Flutter artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.dart_tool/
+.dart_tool/
+.npm
+.eslintcache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs & System files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
